@@ -9,7 +9,7 @@ An intelligent **Multi-Agent AI Data Analysis Assistant** built with **LangChain
 ### 🌐 Live Application
 
 **Streamlit Demo:**  
-https://your-streamlit-app.streamlit.app
+https://ai-data-analysis-multi-agent-zjnhjbztnw22bxswfasdyt.streamlit.app/
 
 ---
 
