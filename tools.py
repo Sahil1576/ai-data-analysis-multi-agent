@@ -717,7 +717,7 @@ Returns:
     return f"{old} name rename to {new} successfully."
 
 @tool
-def drop_column(column)->str:
+def drop_column(column:str)->str:
     """
 Remove a column from the dataset.
 
@@ -734,7 +734,7 @@ Returns:
     if column not in df.columns:
         return "Column not found."
 
-    df = df.drop(columns=[column], axis=1)
+    df = df.drop(columns=[column])
 
     return f"Column {column} Drop Successfully."
 
